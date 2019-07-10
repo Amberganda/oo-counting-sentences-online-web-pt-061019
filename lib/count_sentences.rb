@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-      
+
       puts self.split(/[\?.!]/)
       array = self.split(/[\?.!]/)
       count = 0
@@ -23,9 +23,9 @@ class String
             unless sentence == nil
                 count += 1
             end
-            
+
       end
-      count 
+      count
 #      self.count_sentences
   end
 end

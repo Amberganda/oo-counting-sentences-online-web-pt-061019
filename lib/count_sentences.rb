@@ -15,9 +15,17 @@ class String
   end
 
   def count_sentences
+      
       puts self.split(/[\?.!]/)
-      self.split(/[\?.!]/).count
-
+      array = self.split(/[\?.!]/)
+      count = 0
+      array.each do |sentence|
+            unless sentence == nil
+                count += 1
+            end
+            
+      end
+      count 
 #      self.count_sentences
   end
 end

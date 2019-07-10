@@ -20,7 +20,7 @@ class String
       array = self.split(/[\?.!]/)
       count = 0
       array.each do |sentence|
-            unless sentence.strip.length > 1
+            if sentence.strip.length > 0
                 count += 1
             end
 
